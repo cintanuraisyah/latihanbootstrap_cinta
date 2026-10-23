@@ -229,7 +229,24 @@
         <button type="submit" class="btn btn-primary">
             Kirim Pesan
         </button>
+<!-- NOTIFIKASI BERHASIL -->
+        <div id="notifikasi"
+             class="alert alert-success alert-dismissible fade show mt-3 d-none"
+             role="alert">
 
+            <h5 class="alert-heading">Pesan Berhasil Terkirim!</h5>
+            <p class="mb-0">
+                Terima kasih sudah menghubungi saya.
+            </p>
+
+            <button type="button" class="btn-close"
+                    onclick="document.getElementById('notifikasi').classList.add('d-none')"
+                    aria-label="Tutup"></button>
+        </div>
+
+    </form>
+</section>
+</main>
 
 </body>
 </html>
